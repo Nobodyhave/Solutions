@@ -7,6 +7,8 @@ import java.util.TreeSet;
 /**
  * Created by Aleksandr on 18/10/2016.
  * Project Solutions
+ * <p>
+ * https://www.hackerrank.com/challenges/largest-permutation
  */
 public class LargestPermutation {
 
