@@ -1,4 +1,4 @@
-package hackerrank.artificial_intelligence;
+package hackerrank.artificial_intelligence.bot_building;
 
 /**
  * Created by Aleksandr on 31/10/2016.

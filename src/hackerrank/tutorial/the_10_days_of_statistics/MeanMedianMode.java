@@ -7,7 +7,6 @@ package hackerrank.tutorial.the_10_days_of_statistics;
  * https://www.hackerrank.com/challenges/s10-basic-statistics
  */
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -15,7 +14,7 @@ import java.util.Scanner;
 public class MeanMedianMode {
 
     public static void main(String[] args) throws FileNotFoundException {
-        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+        final Scanner in = new Scanner(System.in);
 
         final int N = in.nextInt();
         final int[] arr = new int[N];
