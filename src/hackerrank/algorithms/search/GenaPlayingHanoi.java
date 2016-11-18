@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 16/11/2016.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/challenges/gena *
+ * https://www.hackerrank.com/challenges/gena
  */
 public class GenaPlayingHanoi {
     public static void main(String[] args) throws FileNotFoundException {
