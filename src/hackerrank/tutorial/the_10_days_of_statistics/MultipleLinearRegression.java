@@ -9,6 +9,8 @@ import java.util.Scanner;
 /**
  * Created by Aleksandr on 31/10/2016.
  * Project Solutions
+ * <p>
+ * https://www.hackerrank.com/challenges/s10-multiple-linear-regression
  */
 public class MultipleLinearRegression {
     public static void main(String[] args) throws FileNotFoundException {

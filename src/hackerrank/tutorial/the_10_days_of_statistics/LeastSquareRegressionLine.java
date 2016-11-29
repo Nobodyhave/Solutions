@@ -1,5 +1,8 @@
 package hackerrank.tutorial.the_10_days_of_statistics;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
 /**
@@ -10,10 +13,19 @@ import java.util.stream.IntStream;
  */
 public class LeastSquareRegressionLine {
 
-    public static void main(String[] args) {
-        final int n = 5;
-        final int[] x = new int[]{95, 85, 80, 70, 60};
-        final int[] y = new int[]{85, 95, 70, 65, 70};
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+
+        final int n = in.nextInt();
+        final int[] x = new int[n];
+        final int[] y = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            x[i] = in.nextInt();
+        }
+        for (int i = 0; i < n; i++) {
+            y[i] = in.nextInt();
+        }
 
         final double meanX = mean(x);
         final double sumX = sum(x);
@@ -25,7 +37,7 @@ public class LeastSquareRegressionLine {
         final double b = (n * sumXY - sumX * sumY) / (n * sumXofSquares - Math.pow(sumX, 2));
         final double a = meanY - b * meanX;
 
-        System.out.format("%.3f", a + b * 80);
+        System.out.format("%.3f", a + b * 10);
     }
 
     private static double sum(int[] arr) {

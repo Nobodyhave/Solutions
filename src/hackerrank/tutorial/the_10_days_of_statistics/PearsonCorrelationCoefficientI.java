@@ -7,13 +7,16 @@ package hackerrank.tutorial.the_10_days_of_statistics;
  * https://www.hackerrank.com/challenges/s10-pearson-correlation-coefficient
  */
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.stream.DoubleStream;
 
 public class PearsonCorrelationCoefficientI {
 
-    public static void main(String[] args) {
-        final Scanner in = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException {
+        //final Scanner in = new Scanner(System.in);
+        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
 
         final int n = in.nextInt();
 
