@@ -19,7 +19,7 @@ public class LeonardosPrimeFactors {
 
     public static void main(String[] args) throws FileNotFoundException {
         //final Scanner in = new Scanner(System.in);
-        Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
 
         final List<Integer> primes = sieveOfEratosthenes(1000000);
 
