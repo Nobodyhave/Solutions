@@ -1,4 +1,4 @@
-package hackerrank.algorithms;
+package hackerrank.algorithms.contests_unpublished;
 
 /**
  * Created by Aleksandr on 18/11/2016.

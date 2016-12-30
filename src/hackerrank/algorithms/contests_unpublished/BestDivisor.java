@@ -1,6 +1,5 @@
-package hackerrank.algorithms;
+package hackerrank.algorithms.contests_unpublished;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -11,21 +10,25 @@ import java.util.stream.Collectors;
  * <p>
  * https://www.hackerrank.com/contests/w26/challenges/best-divisor
  */
+
 public class BestDivisor {
     private static final Map<Integer, Set<Integer>> DIVISORS = new HashMap<>();
 
     public static void main(String[] args) throws FileNotFoundException {
-        //final Scanner in = new Scanner(System.in);
-        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+        final Scanner in = new Scanner(System.in);
+        //final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
         final int n = in.nextInt();
 
         if (n == 0) {
             System.out.println("0");
             return;
+        } else if (n == 1) {
+            System.out.println("1");
+            return;
         }
 
-        final Set<Integer> divisors = getDivisors(n, sieveOfEratosthenes(n));
-        final List<String> divisorsS = divisors.stream().map(String::valueOf).collect(Collectors.toList());
+        Set<Integer> divisors = getDivisors(n, sieveOfEratosthenes(n));
+        List<String> divisorsS = divisors.stream().map(String::valueOf).collect(Collectors.toList());
 
         Collections.sort(divisorsS, new DivisorsComparator());
 
@@ -76,7 +79,7 @@ public class BestDivisor {
     }
 
     private static List<Integer> sieveOfEratosthenes(int n) {
-        final boolean[] prime = new boolean[Math.max(3, n + 1)];
+        final boolean[] prime = new boolean[n + 1];
         final List<Integer> primes = new ArrayList<>();
         Arrays.fill(prime, true);
         prime[0] = false;
@@ -135,3 +138,4 @@ public class BestDivisor {
         }
     }
 }
+
