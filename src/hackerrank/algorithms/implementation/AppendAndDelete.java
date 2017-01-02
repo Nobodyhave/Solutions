@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 30/12/2016.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/w25/challenges/append-and-delete
+ * https://www.hackerrank.com/challenges/append-and-delete
  */
 public class AppendAndDelete {
     public static void main(String[] args) {
