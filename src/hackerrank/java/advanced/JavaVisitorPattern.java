@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.java.advanced;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -140,7 +140,7 @@ class FancyVisitor extends TreeVis {
     }
 }
 
-public class FlexibleTreeVisitorPattern {
+public class JavaVisitorPattern {
 
     public static Tree solve() {
         final Scanner in = new Scanner(System.in);
