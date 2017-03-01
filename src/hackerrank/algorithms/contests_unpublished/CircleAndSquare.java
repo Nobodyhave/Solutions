@@ -1,6 +1,5 @@
-package hackerrank.algorithms;
+package hackerrank.algorithms.contests_unpublished;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -12,8 +11,8 @@ import java.util.Scanner;
  */
 public class CircleAndSquare {
     public static void main(String[] args) throws FileNotFoundException {
-        //final Scanner in = new Scanner(System.in);
-        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+        final Scanner in = new Scanner(System.in);
+        //final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
         final int w = in.nextInt();
         final int h = in.nextInt();
         final int circleX = in.nextInt() * 2;
