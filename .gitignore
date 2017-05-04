@@ -54,3 +54,4 @@ trash/**
 .hgignore
 .project
 project.properties
+src/tests.txt
