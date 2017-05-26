@@ -15,7 +15,6 @@ public class CircularWalk {
         if (s == t) {
             return 0;
         }
-
         final long[] R = new long[n];
         R[0] = r_0;
         for (int i = 1; i < n; i++) {
