@@ -9,6 +9,6 @@ import java.io.FileNotFoundException;
 public class LeetCodeRunner {
     public static void main(String[] args) throws FileNotFoundException {
         //final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
-        System.out.println(new PermutationSequence().getPermutation(4, 18));
+        System.out.println(new EditDistance().minDistance("zoologicoarchaeologist", "zoogeologist"));
     }
 }
