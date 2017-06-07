@@ -9,6 +9,16 @@ import java.io.FileNotFoundException;
 public class LeetCodeRunner {
     public static void main(String[] args) throws FileNotFoundException {
         //final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
-        System.out.println(new SearchInRotatedSortedArray().search(new int[]{1, 1, 3, 1}, 3));
+        /*ReverseNodesInKGroup.ListNode node = new ReverseNodesInKGroup.ListNode(1);
+        ReverseNodesInKGroup.ListNode start = node;
+        node.next = new ReverseNodesInKGroup.ListNode(2);
+        node = node.next;
+        node.next = new ReverseNodesInKGroup.ListNode(3);
+        node = node.next;
+        node.next = new ReverseNodesInKGroup.ListNode(4);
+        node = node.next;
+        node.next = new ReverseNodesInKGroup.ListNode(5);
+        node = node.next;*/
+        System.out.println(new RestoreIpAddress().restoreIpAddresses("172162541"));
     }
 }
