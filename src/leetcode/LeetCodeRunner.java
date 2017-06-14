@@ -19,6 +19,10 @@ public class LeetCodeRunner {
         node = node.next;
         node.next = new ReverseNodesInKGroup.ListNode(5);
         node = node.next;*/
-        System.out.println(new RestoreIpAddress().restoreIpAddresses("172162541"));
+        /*ValidateBinarySearchTree.TreeNode root = new ValidateBinarySearchTree.TreeNode(5);
+        root.left = new ValidateBinarySearchTree.TreeNode(14);
+        root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
+        //System.out.println(new ConstructBinaryTreeFromPreorderAndInorderTraversal().buildTree(new int[]{8,4,2,1,6,5,7,12,10,9,11,14,13,15}, new int[]{1,2,4,5,6,7,8,9,10,11,12,13,14,15}));
+        System.out.println(new ConstructBinaryTreeFromPreorderAndInorderTraversal().buildTree(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3, 4}));
     }
 }
