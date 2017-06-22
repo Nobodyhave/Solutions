@@ -23,6 +23,6 @@ public class LeetCodeRunner {
         root.left = new ValidateBinarySearchTree.TreeNode(14);
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
         //System.out.println(new ConstructBinaryTreeFromPreorderAndInorderTraversal().buildTree(new int[]{8,4,2,1,6,5,7,12,10,9,11,14,13,15}, new int[]{1,2,4,5,6,7,8,9,10,11,12,13,14,15}));
-        System.out.println(new ConstructBinaryTreeFromPreorderAndInorderTraversal().buildTree(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3, 4}));
+        System.out.println(new ConstructBinaryTreeFromPostorderAndInorderTraversal().buildTree(new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}, new int[]{1,9,2,5,7,6,4,9,11,10,13,15,14,12,8}));
     }
 }

@@ -1,4 +1,4 @@
-package hackerrank.algorithms;
+package hackerrank.algorithms.contests_unpublished;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class TransformToPalindrome {
         final int k = in.nextInt();
         final int m = in.nextInt();
 
-        final UnionFind uf = new UnionFind(n + 1);
+        final UnionFind uf = new UnionFind(n+1);
 
         for (int i = 0; i < k; i++) {
             final int x = in.nextInt();
@@ -31,7 +31,7 @@ public class TransformToPalindrome {
     }
 
     private static int longestPalindromicSubsequence(int[] nums, UnionFind uf) {
-        int n = nums.length;
+        final int n = nums.length;
         int i, j, cl;
         final int dp[][] = new int[n][n];
 
