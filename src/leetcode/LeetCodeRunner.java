@@ -24,6 +24,6 @@ public class LeetCodeRunner {
         /*ValidateBinarySearchTree.TreeNode root = new ValidateBinarySearchTree.TreeNode(5);
         root.left = new ValidateBinarySearchTree.TreeNode(14);
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
-        System.out.println(new FindPeakElement().findPeakElement(new int[]{1, 2, 3, 1}));
+        System.out.println(new RepeatedDnaSequences().findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
     }
 }
