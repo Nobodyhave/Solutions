@@ -25,6 +25,6 @@ public class LeetCodeRunner {
         root.left = new ValidateBinarySearchTree.TreeNode(14);
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
         //new SlidingWindowMaximum().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
-        System.out.println(new ValidPerfectSquare().isPerfectSquare(16));
+        System.out.println(new GuessNumberHighOrLowerII().getMoneyAmount(17));
     }
 }
