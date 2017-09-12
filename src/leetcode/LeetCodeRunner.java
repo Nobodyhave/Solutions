@@ -25,6 +25,14 @@ public class LeetCodeRunner {
         root.left = new ValidateBinarySearchTree.TreeNode(14);
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
         //new SlidingWindowMaximum().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
-        System.out.println(new GuessNumberHighOrLowerII().getMoneyAmount(17));
+        System.out.println(new ArrangingCoins().arrangeCoins(5));
+        AddTwoNumbersII.ListNode node = new AddTwoNumbersII.ListNode(1);
+        AddTwoNumbersII.ListNode start1 = node;
+
+        node = new AddTwoNumbersII.ListNode(9);
+        AddTwoNumbersII.ListNode start2 = node;
+        node.next = new AddTwoNumbersII.ListNode(9);
+
+        new AddTwoNumbersII().addTwoNumbers(start1, start2);
     }
 }
