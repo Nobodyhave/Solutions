@@ -1,9 +1,6 @@
 package leetcode;
 
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by Aleksandr on 26/04/2017.
@@ -29,10 +26,6 @@ public class LeetCodeRunner {
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
         //new SlidingWindowMaximum().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
         //new ZumaGame().collapseTable("WWBBBWW");
-        final List<List<Integer>> nums = new ArrayList<>();
-        nums.add(Arrays.asList(4, 10, 15, 24, 26));
-        nums.add(Arrays.asList(0, 9, 12, 20));
-        nums.add(Arrays.asList(5, 18, 22, 30));
-        System.out.println(new RepeatedStringMatch().repeatedStringMatch("a", "aa"));
+        System.out.println(new CountDifferentPalindromicSubsequences().countPalindromicSubsequences("bcccb"));
     }
 }

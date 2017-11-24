@@ -4,7 +4,7 @@ package leetcode;
  * Created by Aleksandr on 26/06/2017.
  * Project Solutions
  * <p>
- * https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii
  */
 public class BestTimeToBuyAndSellStockIII {
     public int maxProfit(int[] prices) {
