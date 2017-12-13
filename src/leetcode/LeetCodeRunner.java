@@ -26,6 +26,6 @@ public class LeetCodeRunner {
         root.left.left = new ValidateBinarySearchTree.TreeNode(1);*/
         //new SlidingWindowMaximum().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
         //new ZumaGame().collapseTable("WWBBBWW");
-        System.out.println(new CountDifferentPalindromicSubsequences().countPalindromicSubsequences("bcccb"));
+        System.out.println(new AsteroidCollision().asteroidCollision(new int[]{5, 10, -5}));
     }
 }
