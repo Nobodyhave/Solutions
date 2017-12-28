@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Aleksandr on 20/11/2017.
  * Project Solutions
  * <p>
- * https://leetcode.com/problems/my-calendar-i
+ * https://leetcode.com/problems/my-calendar-ii
  */
 public class MyCalendarII {
     private List<Event> calendar = new ArrayList<>();
