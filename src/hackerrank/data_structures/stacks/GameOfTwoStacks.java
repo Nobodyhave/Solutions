@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.data_structures.stacks;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
