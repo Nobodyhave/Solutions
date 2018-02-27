@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 10/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/hourrank-17/challenges/organizing-containers-of-balls
+ * https://www.hackerrank.com/challenges/organizing-containers-of-balls
  */
 public class OrganizingContainersOfBalls {
     public static void main(String[] args) {

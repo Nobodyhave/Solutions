@@ -1,6 +1,5 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -8,7 +7,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 15/11/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/w35/challenges/3d-surface-area
+ * https://www.hackerrank.com/challenges/3d-surface-area
  */
 public class SurfaceArea3D {
     private static int surfaceArea(int[][] A) {
@@ -77,8 +76,8 @@ public class SurfaceArea3D {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        //final Scanner in = new Scanner(System.in);
-        final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
+        final Scanner in = new Scanner(System.in);
+        //final Scanner in = new Scanner(new FileInputStream("C:\\Projects\\Solutions\\src\\tests.txt"));
         final int H = in.nextInt();
         final int W = in.nextInt();
         final int[][] A = new int[H][W];

@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 18/01/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/101hack45/challenges/permutation-equation
+ * https://www.hackerrank.com/challenges/permutation-equation
  */
 public class SequenceEquation {
     public static void main(String args[]) throws Exception {

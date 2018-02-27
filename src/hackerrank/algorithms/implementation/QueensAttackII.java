@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 10/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/world-codesprint-9/challenges/queens-attack-2
+ * https://www.hackerrank.com/challenges/queens-attack-2
  */
 public class QueensAttackII {
     public static void main(String[] args) throws FileNotFoundException {
@@ -18,7 +18,7 @@ public class QueensAttackII {
         final int rQueen = in.nextInt();
         final int cQueen = in.nextInt();
 
-        if(n < 2) {
+        if (n < 2) {
             System.out.println(0);
             return;
         }

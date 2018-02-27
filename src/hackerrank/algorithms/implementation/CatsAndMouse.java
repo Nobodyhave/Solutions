@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 30/12/2016.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/hourrank-15/challenges
+ * https://www.hackerrank.com/challenges/cats-and-a-mouse
  */
 public class CatsAndMouse {
     public static void main(String[] args) {

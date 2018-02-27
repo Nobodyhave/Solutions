@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 22/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/university-codesprint-2/challenges/breaking-best-and-worst-records
+ * https://www.hackerrank.com/challenges/breaking-best-and-worst-records
  */
 public class BreakingRecords {
     public static void main(String[] args) {

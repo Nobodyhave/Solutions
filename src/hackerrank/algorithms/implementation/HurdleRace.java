@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 10/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/hourrank-17/challenges/the-hurdle-race
+ * https://www.hackerrank.com/challenges/the-hurdle-race
  */
 public class HurdleRace {
     public static void main(String[] args) {

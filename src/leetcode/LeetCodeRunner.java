@@ -1,7 +1,5 @@
 package leetcode;
 
-import hackerrank.data_structures.queue.QueriesWithFixedLength;
-
 import java.io.FileNotFoundException;
 
 /**
@@ -29,6 +27,6 @@ public class LeetCodeRunner {
         //new SlidingWindowMaximum().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
         //new ZumaGame().collapseTable("WWBBBWW");
         //System.out.println();
-        new QueriesWithFixedLength().main(new String[0]);
+        System.out.println();
     }
 }

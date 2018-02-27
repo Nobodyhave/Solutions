@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 15/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/rookierank-2/challenges/migratory-birds
+ * https://www.hackerrank.com/challenges/migratory-birds
  */
 public class MigratoryBirds {
     public static void main(String[] args) {

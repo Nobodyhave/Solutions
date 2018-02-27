@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 11/09/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/hourrank-23/challenges/halloween-sale
+ * https://www.hackerrank.com/challenges/halloween-sale
  */
 public class HalloweenSale {
     private static int howManyGames(int p, int d, int m, int s) {

@@ -1,4 +1,4 @@
-package hackerrank.algorithms.contests_unpublished;
+package hackerrank.algorithms.implementation;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Aleksandr on 10/02/2017.
  * Project Solutions
  * <p>
- * https://www.hackerrank.com/contests/world-codesprint-9/challenges/grading
+ * https://www.hackerrank.com/challenges/grading
  */
 public class GradingStudents {
     public static void main(String[] args) {
